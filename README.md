@@ -1,1 +1,12 @@
 # e-commerce-website
+![Screenshot 2024-06-23 201455](https://github.com/bijabhai-fatima/e-commerce-website/assets/92461731/677ae18b-04ae-487b-939c-2cd830e9f68a)
+![Screenshot 2024-06-23 201511](https://github.com/bijabhai-fatima/e-commerce-website/assets/92461731/2f96aef1-88be-405e-b69c-a3fbc2ac0896)
+![Screenshot 2024-06-23 201529](https://github.com/bijabhai-fatima/e-commerce-website/assets/92461731/0847968e-bf35-4d52-9e68-e00bc7c73231)
+![Screenshot 2024-06-23 201558](https://github.com/bijabhai-fatima/e-commerce-website/assets/92461731/02070d3c-64af-4851-91ce-c7c63f6c6d5c)
+![Screenshot 2024-06-23 201637](https://github.com/bijabhai-fatima/e-commerce-website/assets/92461731/6b7bff9f-4158-40d4-a4bf-8dfa603d5610)
+![Screenshot 2024-06-23 201700](https://github.com/bijabhai-fatima/e-commerce-website/assets/92461731/d2629c2b-728e-48f7-be81-d5b4e17f811c)
+![Screenshot 2024-06-23 202040](https://github.com/bijabhai-fatima/e-commerce-website/assets/92461731/ffe3c890-0fe7-4000-80ca-25ce60f05860)
+![Screenshot 2024-06-23 201917](https://github.com/bijabhai-fatima/e-commerce-website/assets/92461731/68aa1508-7219-42c1-a31e-8e54eed64cf4)
+![Screenshot 2024-06-23 201717](https://github.com/bijabhai-fatima/e-commerce-website/assets/92461731/342bd68e-c60a-45f8-bdd4-9908f838a1de)
+![Screenshot 2024-06-23 201744](https://github.com/bijabhai-fatima/e-commerce-website/assets/92461731/b877e534-7078-4ed9-b958-2f7ae300705f)
+![Screenshot 2024-06-23 202207](https://github.com/bijabhai-fatima/e-commerce-website/assets/92461731/f29e10e4-8c4b-42f7-a778-eb68c0214650)
