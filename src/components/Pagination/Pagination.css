@@ -1,0 +1,46 @@
+.pagination-container {
+    display: flex;
+    margin: 0 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.pages-container {
+    display: flex;
+}
+.page {
+    margin: 5px 10px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.page-active {
+    font-weight: 400;
+    color: #ad1b2e;
+}
+
+.previus-botton-container > button,
+.next-botton-container > button {
+    padding: 5px 15px;
+    outline: none;
+    background: white;
+    border: 0.5px solid rgba(0, 0, 0, 0.23);
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.previus-botton-container > button:hover,
+.next-botton-container > button:hover {
+    border: 0.5px solid rgba(173, 27, 46, 0.23);
+}

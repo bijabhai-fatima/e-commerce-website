@@ -1,0 +1,38 @@
+.my-details-container {
+    padding: 25px;
+    box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+    min-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.my-details-title {
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.my-details-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+.my-address-sub-title {
+    margin-top: 20px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 275;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #000000;
+}
+.my-notification-container__my-profile {
+    width: 100%;
+}

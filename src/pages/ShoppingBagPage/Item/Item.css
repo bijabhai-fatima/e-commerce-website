@@ -1,0 +1,150 @@
+.shopping-bag-item-container {
+    margin: 15px 20px;
+    display: flex;
+    border: 0.5px solid rgba(0, 0, 0, 0.23);
+    padding: 10px;
+}
+.shopping-bag-item-photo-container {
+    display: flex;
+}
+.product-photo-container > img {
+    width: 200px;
+    margin: 0 10px;
+}
+.product-checkbox-container > img {
+    width: 20px;
+    cursor: pointer;
+}
+.product-checkbox-container {
+    position: relative;
+}
+.shoppingbag-content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.shopping-bag-item-content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.shopping-bag-item-name-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopping-bag-item-name-container > img {
+    margin-right: 10px;
+    width: 15px;
+    cursor: pointer;
+}
+.shopping-bag-item-product-name {
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height */
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #000000;
+    margin: 10px 10px;
+}
+.shopping-bag-item-product-sizes-container > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 10px;
+}
+.shopping-bag-item-product-specification-title {
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.shopping-bag-item-product-sizes-title {
+    margin: 0 10px;
+    padding: 0 2px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.5px solid rgba(0, 0, 0, 0.23);
+}
+
+.shopping-bag-item-product-sizes-open-container {
+    margin: 0 10px;
+    padding: 0 2px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 0.5px solid rgba(0, 0, 0, 0.23);
+    position: relative;
+    left: 50px;
+}
+.product-size-item {
+    padding: 5px 10px;
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #000000;
+    cursor: pointer;
+    text-align: left;
+}
+.product-size-item:hover {
+    background-color: rgba(238, 238, 238, 1);
+}
+.shopping-bag-item-product-sizes-title > img {
+    width: 20px;
+    filter: invert(13%) sepia(95%) saturate(2974%) hue-rotate(340deg)
+        brightness(98%) contrast(93%);
+}
+
+.shopping-bag-item-product-quy-title {
+    margin: 0 10px;
+    padding: 0 2px;
+    border: 0.5px solid rgba(0, 0, 0, 0.23);
+}
+
+.shopping-bag-item-product-quantity-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.shoppingbag-plus-container,
+.shoppingbag-minus-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.shoppingbag-minus-container > img {
+    margin-left: 10px;
+    width: 18px;
+}
+.shoppingbag-plus-container > img {
+    width: 20px;
+}
+.shopping-bag-item-price-container {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    color: #ad1b2e;
+}

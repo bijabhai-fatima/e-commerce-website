@@ -1,0 +1,40 @@
+.menu-item-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    cursor: pointer;
+    min-width: 200px;
+}
+.menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-icon > img {
+    width: 22px;
+    margin: 5px;
+}
+.menu-item-container:hover {
+    filter: invert(16%) sepia(41%) saturate(5631%) hue-rotate(339deg)
+        brightness(94%) contrast(96%);
+    color: #ad1b2e;
+}
+
+.active-menu {
+    filter: invert(16%) sepia(41%) saturate(5631%) hue-rotate(339deg)
+        brightness(94%) contrast(96%);
+    color: #ad1b2e;
+    border-bottom: 0.2px solid black;
+    border-right: 0.2px solid black;
+}
+.menu-name {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 10px;
+    color: #000000;
+}

@@ -1,0 +1,24 @@
+.input-feild-button-container {
+    margin: 20px 0;
+}
+.input-feild-button-container > button {
+    background: #ad1b2e;
+    border: none;
+    padding: 10px 15px;
+    width: 210px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    text-align: center;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+
+    color: #ffffff;
+}
+.input-feild-button-container > button:hover,
+.input-feild-button-container > button:disabled {
+    background-color: #b4515f;
+}

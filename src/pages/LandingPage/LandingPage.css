@@ -1,0 +1,182 @@
+.landingpage-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-section-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.top-content {
+    margin-top: 60px;
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 78px;
+    /* or 100% */
+    text-transform: capitalize;
+    text-align: left;
+    color: #000000;
+}
+.pera-content {
+    margin-top: 60px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+    /* or 40px */
+    text-transform: capitalize;
+    text-align: left;
+    color: #34251f;
+}
+.explore-button {
+    margin-top: 60px;
+    background: #ad1b2e;
+    border: none;
+    padding: 2px 5px;
+    width: 200px;
+    height: 70px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    text-align: center;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    color: #ffffff;
+}
+.explore-button:hover,
+.explore-button:disabled {
+    background-color: #b4515f;
+}
+.landing-photo {
+    width: 450px;
+    margin: 10px;
+    background-color: transparent;
+}
+.newcollection-container {
+    width: 100%;
+    background-color: #ad1b2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+.newcollection-title {
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 180%;
+    /* or 115px */
+    text-transform: capitalize;
+
+    color: #ffffff;
+}
+.newCollection-pera {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+    /* identical to box height, or 40px */
+    text-transform: capitalize;
+
+    color: #ffffff;
+}
+.newCollection-ites-container {
+    width: 70%;
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-photo {
+    width: 300px;
+    transition: all 0.2s linear;
+}
+.item-photo:hover {
+    transform: scale(1.1);
+}
+.item-name {
+    position: relative;
+    background-color: rgba(238, 238, 238, 0.95);
+    left: 20px;
+    bottom: 80px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    text-transform: uppercase;
+    width: 80%;
+    color: #000000;
+}
+.shopByCatagory-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    margin-bottom: 200px;
+}
+.shopByCatagory-title {
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 180%;
+    /* or 115px */
+    text-transform: capitalize;
+
+    color: black;
+}
+.shopByCatagory-catagories-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.catagirie {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 16px;
+    color: #000000;
+    cursor: pointer;
+}
+.shopByCatagory-items-container {
+    width: 70%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+.disable {
+    color: rgba(0, 0, 0, 0.5);
+    cursor: not-allowed;
+    outline: none;
+    text-decoration: none;
+}
+.disable:hover {
+    color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    cursor: not-allowed;
+}

@@ -1,0 +1,39 @@
+.single-notification-container__inside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.31);
+}
+.upper-section-container {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 14px;
+
+    color: #000000;
+}
+.upper-section-container:hover {
+    color: #ad1b2e;
+}
+.lower-section-container__inside {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+    margin: 10px;
+}
+.lower-section-container__inside > img {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+.notification-time {
+    font-style: normal;
+    font-weight: 300;
+    font-size: medium;
+
+    color: #000000;
+}

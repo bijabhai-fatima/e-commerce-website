@@ -1,0 +1,47 @@
+.my-account-container {
+    min-height: 1000px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 150px 200px;
+    /* margin: auto; */
+}
+.my-account-uppertext {
+    font-family: "Lato";
+    font-size: 14px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: #000000;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+}
+.my-account-uppertext__Home {
+    font-weight: 300;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.my-account-uppertext__MyAccount {
+    font-weight: 400;
+}
+.my-account-hello {
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 180%;
+    /* or 86px */
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.my-account-content-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.selected-menu-container {
+    margin: 20px 60px;
+    width: 1000px;
+}

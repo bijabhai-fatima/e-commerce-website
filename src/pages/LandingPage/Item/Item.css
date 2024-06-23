@@ -1,0 +1,34 @@
+.Item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Item-container img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Item-name {
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #34251f;
+}
+.Item-price {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 180%;
+    /* or 25px */
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #34251f;
+
+    opacity: 0.9;
+}

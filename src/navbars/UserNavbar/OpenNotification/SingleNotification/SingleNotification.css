@@ -1,0 +1,41 @@
+.single-notification-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.31);
+}
+.single-notification-container:hover {
+    color: #ad1b2e;
+}
+.upper-section-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.notifictaion-text {
+    margin: 2px 2px;
+    text-align: left;
+    color: #000000;
+}
+.upper-section-container > img {
+    margin: 0 2px;
+    width: 15px;
+    height: 15px;
+}
+.lower-section-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.lower-section-container > img {
+    width: 20px;
+    height: 20px;
+}
+.notification-time {
+    font-style: normal;
+    font-weight: 300;
+    font-size: medium;
+
+    color: #000000;
+}

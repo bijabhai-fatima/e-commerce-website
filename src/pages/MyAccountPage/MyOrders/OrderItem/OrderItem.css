@@ -1,0 +1,135 @@
+.order-item-container {
+    border: 0.5px solid rgba(0, 0, 0, 0.23);
+    width: 100%;
+    margin: 20px 0;
+}
+.order-item-status-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+}
+.order-item-status-container > img {
+    width: 22px;
+}
+.order-item-status {
+    margin-left: 10px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.order-item-content-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.order-item-image-container {
+    width: 30%;
+    margin: 0 20px;
+}
+.order-item-image-container > img {
+    width: 100%;
+}
+.order-item-data-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.order-item-name {
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height */
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.order-item-descripiton {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 12px;
+    margin-bottom: 10px;
+    /* identical to box height */
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.order-item-details-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.order-item-detil {
+    margin: 10px 10px 10px 0;
+    padding: 5px 10px;
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    text-transform: capitalize;
+    border: 0.5px solid rgba(0, 0, 0, 0.23);
+    color: #000000;
+}
+.order-item-review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+.order-item-stars-container {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.order-item-stars-title {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 12px;
+    /* identical to box height */
+    text-transform: capitalize;
+    margin-right: 15px;
+    color: #000000;
+}
+.order-item-review-title {
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.order-item-review-container > textarea {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #000000;
+    outline: none; /* Rectangle 162 */
+    border: none;
+    background: #eeeeee;
+    color: #000000;
+    width: 100%;
+    resize: none;
+}
+
+.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+}

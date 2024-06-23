@@ -1,0 +1,175 @@
+.shopping-bag-conatainer {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 150px 200px;
+}
+
+.shopping-bag-header-container {
+    width: 80%;
+}
+.shopping-bag-header-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopping-bag-menu-item-container {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+}
+.active {
+    color: #ad1b2e;
+}
+.arrow {
+    background-color: black;
+    margin: 0 10px;
+    height: 1px;
+    width: 70px;
+}
+
+.shopping-bag-main-section-container__ {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.shopping-bag-main-content-container {
+    width: 65%;
+}
+
+.shopping-bag-main-content-header-container {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0 10px;
+}
+
+.upper-left-part {
+    display: flex;
+    align-items: center;
+}
+.upper-left-part > img {
+    width: 25px;
+}
+.upper-left-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.upper-right-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 275;
+    font-size: 12px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.shopping-bag-main-content-inside-container {
+    border-right: 2px solid black;
+    padding: 10px;
+    height: max-content;
+    overflow-y: auto;
+}
+
+.shopping-bag-side-content-container {
+    width: 35%;
+}
+.shopping-bag-side-content-header-container {
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.shopping-bag-bag-content-inside-container {
+    margin: 30px 20px;
+    width: 100%;
+}
+.price-details-title-container {
+    display: flex;
+    align-items: center;
+}
+.price-details-title {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.price-details-items {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 14px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.bill-container {
+}
+.bill-item-shipping,
+.bill-item-mrp,
+.bill-total {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bill-item-mrp-title,
+.bill-item-shipping-title {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.bill-total-title {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.bill-item-mrp-total,
+.bill-total-total {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
